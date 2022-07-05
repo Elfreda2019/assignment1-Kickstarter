@@ -1,22 +1,36 @@
 # Kickstarter Analysis
 ## Project Overview
- Louise, an up and coming play writer who wants to start a crowfunding campaign to help fund her play, Fever. She is estimating a budget of over $10,000 and hesistant about starting the fundraising campaign. We are going run analysis using Excel to provide Louise with helpful insight based on campaigns that has already been held.
+ Louise, an up and coming play writer who wants to start a crowfunding campaign to help fund her play, Fever. She is estimating a budget of over $10,000 and hesistant about starting the fundraising campaign. We are going to run analysis on Kickstarter data using Excel to provide Louise with helpful insight based on campaigns that has already been held in order to have a successful campaign.
 
 ## Analysis and Challenges
 #### Description
+First we try to understand the Kickstarter data including all variables present. Then we sorted, filtered and formated our data. Since we know Louise is interested in play, we can tell from our data that play is a subcatergory under the parent catergory theater.We made our data more detailed by splitting the Category and subcategory into 2 columns in order to get more understanding.We generated new columns which are variables such as Years(from the Date Created Conversion column). 
 
-First we formated and sorted the data based on the variable we are insterested in to help Louise make informed decisions. 
-Then color coded outcomes to have a view of live, successful, canceled and failed campaigns at a glance.
-Next we looked at the percentage of plegdes to goals and also looked at the avearage donation dividing the pledges by the number of backers(people who made the pledges).
+#### Visuals and Tables
+Then we created a pivot table on a new sheet from the Kickstarter worksheet with filters based on Parent Category and Years named [Theater Outcomes by Lunch dates](https://github.com/Elfreda2019/assignment1-Kickstarter/blob/main/Kickstarter_Challenge.xlsx.zip) . Theater was filtered and a line chart was plotted showing the visual relationship between outcomes and launch date. As shown below
 
-Since Louise is interested in theater play campaigns, we made our data more detailed by spliting the Category and subcategory into 2 columns in order to get more understanding. Adding visuals to our analysis will give Louise additional insights so we made a pivot table of the outcomes of the categories,  plotted the graph . Diving further we went ahead to make a pivot table and plotted the outcomes of subcategory  To better inform Louise we looked at the line chart of the outcomes as against the various months igns with comparatively low failed campaigns as well. So we can advice Louise on May and Febuary as the ideal months to attain high success rate.
+#####
 
-At this stage we encounted a few challenges, because some of the campaigns had no backers, which gave us an error in the calculation of our avearage donation. We used the IFFERROR function to set all error entries 0, because we needed a numerical value for that column.
+![Image as shown](https://github.com/Elfreda2019/assignment1-Kickstarter/blob/main/Resources/Theather_Outcomes_vs_Launch.png)
+
+#####
+In order to get a clearer picture of the outcomes which are successful, failed and canceled based on the goal, on a new sheet we created grouped ranges for the goal in dollars and filtered play from the subcategory along side. Then we populated the number count of each outcome based on the filtered data on a new sheet named Outcomes based on Goals and also computed their individual percentages and totals as shown in the [excel zip file](https://github.com/Elfreda2019/assignment1-Kickstarter/blob/main/Kickstarter_Challenge.xlsx.zip). And final plotted a bar chart to visualize the relationship between the goal amount ranges on the x-axis and percentages of sucessful, failed and canceled on the y axis. As shown below 
+##### 
+
+![image as shown](https://github.com/Elfreda2019/assignment1-Kickstarter/blob/main/Resources/Outcomes_vs_Goals.png) 
 
 
+### Challenges
 
-and we found that theater saw the most number of successes
+During the formatting, filtering and sorting stage  we encounted a few challenges, because some of the campaigns had no backers, which gave us an error in the calculation of our avearage donation. We used the IFFERROR function to set all error entries to 0, because we needed a numerical value for that column.
 
-and this also showed that theater play had the most successful event.
 
-and campaigns held in the month of May were more successful, however they also had the highest failed events as well. In the same light Febuary had a relatively high succesful campa
+## Results
+Looking at the line chart of Theater Outcomes by Lunch dates, we found that theater campaigns held in the month of May were the most successful even though the same month of May recorded the most number of failed campaigns as well.
+#####
+The month of December is not a favourable month for play campaigns based on the our line chart analysis.
+
+#####
+From the Outcome based on Goals, we see that campaigns with goals higher than $4999 are less successful, so knowing Louise has a goal of over $10000. We can advice Louise to reconsider reducing the goal amount to about $4999 in order to have a chance of being successful.
+
+

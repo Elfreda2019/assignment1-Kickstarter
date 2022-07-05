@@ -12,13 +12,13 @@ We went ahead and created a pivot table on a new sheet from the Kickstarter work
 #####
 
 ![Image as shown](https://github.com/Elfreda2019/assignment1-Kickstarter/blob/main/Resources/Theather_Outcomes_vs_Launch.png)
-figure 1
+Figure 1, Theather Oucomes based on Lunch dates
 #####
 In order to get a clearer picture of the outcomes which are successful, failed and canceled based on the goal, on a new sheet we created grouped ranges for the goal in dollars and filtered play from the subcategory along side. Then we populated the number count of each outcome based on the filtered data on a new sheet named Outcomes based on Goals and also computed their individual percentages and totals as shown in the [excel zip file](https://github.com/Elfreda2019/assignment1-Kickstarter/blob/main/Kickstarter_Challenge.xlsx.zip). And finally plotted a line chart to visualize the relationship between the goal amount ranges on the x-axis and percentages of sucessful, failed and canceled on the y axis. As shown in figure 2. 
 ##### 
 
 ![image as shown](https://github.com/Elfreda2019/assignment1-Kickstarter/blob/main/Resources/Outcomes_vs_Goals.png) 
-figure 2
+Figure 2, Outcomes based on Goals
 
 ### Challenges
 
@@ -26,12 +26,12 @@ During the formatting, filtering and sorting stage  we encounted a few challenge
 
 
 ## Results
-In figure 1 Theater Outcomes by Lunch dates, we found that theater campaigns held in the month of May were the most successful even though the same month of May recorded the most number of failed campaigns as well.
+In Figure 1 Theater Outcomes by Lunch dates, we found that theater campaigns held in the month of May were the most successful even though the same month of May recorded the most number of failed campaigns as well.
 #####
 The month of December is not a favourable month for play campaigns based on the our line chart analysis.
 
 #####
-From figure 2 Outcomes based on Goals, we see that campaigns with goals higher than $4999 are less successful, so knowing Louise has a goal of over $10000. We can advice Louise to reconsider reducing the goal amount to about $4999 in order to have a chance of being successful.
+From Figure 2 Outcomes based on Goals, we see that campaigns with goals higher than $4999 are less successful, so knowing Louise has a goal of over $10000. We can advice Louise to reconsider reducing the goal amount to about $4999 in order to have a chance of being successful.
 
 ### Recommendation and Limitation
 The data is a from different parts of the world and under the currency column several other currencies were recorded, however only dollars were recorded in the goal and pledge column.

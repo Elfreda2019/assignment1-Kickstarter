@@ -22,16 +22,16 @@ figure 2
 
 ### Challenges
 
-During the formatting, filtering and sorting stage  we encounted a few challenges, because some of the campaigns had no backers, which gave us an error in the calculation of our avearage donation. We used the IFFERROR function to set all error entries to 0, because we needed a numerical value for that column. 
+During the formatting, filtering and sorting stage  we encounted a few challenges, because some of the campaigns had no backers, which gave us an error in the calculation of our avearage donation. We used the IFERROR function to set all error entries to 0, because we needed a numerical value for that column. 
 
 
 ## Results
-Looking at the line chart of Theater Outcomes by Lunch dates, we found that theater campaigns held in the month of May were the most successful even though the same month of May recorded the most number of failed campaigns as well.
+Looking at figure 1 Theater Outcomes by Lunch dates, we found that theater campaigns held in the month of May were the most successful even though the same month of May recorded the most number of failed campaigns as well.
 #####
 The month of December is not a favourable month for play campaigns based on the our line chart analysis.
 
 #####
-From the Outcome based on Goals, we see that campaigns with goals higher than $4999 are less successful, so knowing Louise has a goal of over $10000. We can advice Louise to reconsider reducing the goal amount to about $4999 in order to have a chance of being successful.
+From figure 2 Outcome based on Goals, we see that campaigns with goals higher than $4999 are less successful, so knowing Louise has a goal of over $10000. We can advice Louise to reconsider reducing the goal amount to about $4999 in order to have a chance of being successful.
 
 ### Recommendation and Limitation
 The data is a from different parts of the world and under the currency column several other currencies were recorded, however only dollars were recorded in the goal and pledge column.
